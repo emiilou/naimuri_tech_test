@@ -1,15 +1,12 @@
 import React, { useState } from "react";
+import { Filters } from "../interfaces/filters";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 
+import "../styles/Search.scss";
+
 interface SearchProps {
   onSearch: (searchTerm: string, filters: Filters) => void;
-}
-
-export interface Filters {
-  stars: number;
-  forks: number;
-  issues: number;
 }
 
 const Search: React.FC<SearchProps> = ({ onSearch }) => {

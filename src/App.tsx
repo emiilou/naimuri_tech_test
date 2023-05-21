@@ -2,13 +2,8 @@ import { useState } from "react";
 import axios from "axios";
 import Search from "./components/Search";
 import RepoResults from "./components/RepoResults";
-import "./App.css";
-
-export interface Filters {
-  stars: number;
-  forks: number;
-  issues: number;
-}
+import { Filters } from "./interfaces/filters";
+import "./styles/App.scss";
 
 const App = () => {
   const [repos, setRepos] = useState<any[]>([]);
@@ -22,6 +17,7 @@ const App = () => {
       const queryString = `q=${searchTerm}${
         queryFilters ? "+" + queryFilters : ""
       }`;
+      console.log(queryString);
       const response = await axios.get(
         `https://api.github.com/search/repositories?${queryString}`
       );
