@@ -1,6 +1,7 @@
-# Naimuri Tech Test - GitHub Search Application
-
-_### Emily Baker - Full Stack Software Engineer
+### Emily Baker
+Full Stack Software Engineer
+#
+# GitHub Search Application
 
 This application provides a user interface for searching and filtering GitHub repositories using the GitHub API. It allows users to enter a search term and apply filters based on the number of stars, forks, and open issues. The search results are displayed with relevant information about each repository.
 
