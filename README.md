@@ -1,6 +1,9 @@
 ### Emily Baker
+
 Full Stack Software Engineer
+
 #
+
 # GitHub Search Application
 
 This application provides a user interface for searching and filtering GitHub repositories using the GitHub API. It allows users to enter a search term and apply filters based on the number of stars, forks, and open issues. The search results are displayed with relevant information about each repository.
@@ -59,7 +62,8 @@ Upon launching the GitHub Search Application, you will be presented with a searc
 
 ## Limitations
 
-    - lack of testing
+    - lack of testing (including accessibility)
     - no dark mode option
     - rigid/unresponsive layout
     - basic state management
+    - limited accessibility measures

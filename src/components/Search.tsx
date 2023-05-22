@@ -39,8 +39,9 @@ const Search: React.FC<SearchProps> = ({ onSearch }) => {
             variant="filled"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
+            aria-label="search input field"
           />
-          <Button type="submit" variant="contained">
+          <Button type="submit" variant="contained" aria-label="search button">
             Search
           </Button>
         </div>
@@ -56,6 +57,7 @@ const Search: React.FC<SearchProps> = ({ onSearch }) => {
                 variant="outlined"
                 value={value}
                 onChange={handleFilterChange}
+                aria-label={`${key} filter input`}
               />
             </div>
           ))}
