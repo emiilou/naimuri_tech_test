@@ -1,4 +1,4 @@
-### Emily Baker
+### [Emily Baker](https://www.linkedin.com/in/emily-l-022595243)
 
 Full Stack Software Engineer
 
